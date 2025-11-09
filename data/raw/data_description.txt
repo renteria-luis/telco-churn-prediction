@@ -1,0 +1,43 @@
+customer_id - Unique customer identifier
+gender - Customer gender male or female
+age - Customer age in years
+under_30 - True if customer younger than 30
+senior_citizen - True if customer over 65
+married - Whether customer is married
+dependents - Has dependents like children or parents
+number_of_dependents - Total dependents count
+service_id - Unique service contract ID
+referred_a_friend - Whether customer referred others
+number_of_referrals - Count of successful referrals
+tenure_in_months - Months since customer joined
+offer - Promotional offer received
+phone_service - Has phone line service
+avg_monthly_long_distance_charges - Average monthly call charges
+multiple_lines - Has multiple phone lines
+internet_service - Internet connection availability
+internet_type - Type of internet (DSL/Fiber/etc.)
+avg_monthly_gb_download - Average GB downloaded monthly
+online_security - Has online protection service
+online_backup - Uses online backup feature
+device_protection_plan - Device protection coverage active
+premium_tech_support - Has premium technical support
+streaming_tv - Uses streaming TV service
+streaming_movies - Uses streaming movies service
+streaming_music - Uses streaming music service
+unlimited_data - Has unlimited data plan
+contract - Type of service contract
+paperless_billing - Receives bills electronically
+payment_method - Preferred payment type
+monthly_charge - Monthly service payment amount
+total_charges - Total amount billed overall
+total_refunds - Total refunds issued
+total_extra_data_charges - Charges for extra data used
+total_long_distance_charges - Total phone distance charges
+total_revenue - Total revenue from customer
+status_id - Numeric code for customer status
+satisfaction_score - Customer satisfaction rating 1–5
+customer_status - Current customer status active/churned
+churn_label - 'Yes' or 'No' for churn
+churn_value - 1 if churned else 0
+churn_score - Likelihood to churn score
+cltv - Customer lifetime value estimation
