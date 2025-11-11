@@ -1,0 +1,33 @@
+Feature,Type,Origin,Description
+gender,object,raw/encoded,Customer gender
+age,int64,raw/encoded,Customer age
+number_of_dependents,int64,raw/encoded,Dependents count
+number_of_referrals,int64,raw/encoded,Referrals made
+tenure_in_months,int64,raw/encoded,Months with company
+offer,object,raw/encoded,Offer type
+internet_service,object,raw/encoded,Internet service
+internet_type,object,raw/encoded,Internet type
+avg_monthly_gb_download,int64,raw/encoded,Avg GB download
+payment_method,object,raw/encoded,Payment method
+monthly_charge,float64,raw/encoded,Monthly charge
+total_charges,float64,raw/encoded,Total charges
+total_refunds,float64,raw/encoded,Refunds total
+total_extra_data_charges,int64,raw/encoded,Extra data fees
+total_long_distance_charges,float64,raw/encoded,Long distance fees
+total_revenue,float64,raw/encoded,Total revenue
+avg_monthly_spending,float64,engineered,Avg monthly spend
+revenue_minus_refunds,float64,engineered,Net revenue
+contract_length_months,int64,engineered,Contract length (mo)
+has_streaming,bool,engineered,Any streaming (1/0)
+has_phone_service,int64,raw/encoded,Phone service (1/0)
+has_multiple_lines,int64,raw/encoded,Multiple lines (1/0)
+has_online_security,int64,raw/encoded,Online security (1/0)
+has_online_backup,int64,raw/encoded,Online backup (1/0)
+has_device_protection_plan,int64,raw/encoded,Device protection (1/0)
+has_premium_tech_support,int64,raw/encoded,Tech support (1/0)
+has_streaming_tv,int64,raw/encoded,TV streaming (1/0)
+has_streaming_movies,int64,raw/encoded,Movies streaming (1/0)
+has_streaming_music,int64,raw/encoded,Music streaming (1/0)
+has_unlimited_data,int64,raw/encoded,Unlimited data (1/0)
+has_paperless_billing,int64,raw/encoded,Paperless billing (1/0)
+num_services,int64,engineered,Total services
